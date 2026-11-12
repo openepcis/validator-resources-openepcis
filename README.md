@@ -84,7 +84,7 @@ where the shapes are derived from the module ontologies and verified against the
 same `isaitb/shacl-validator` image the Test Bed runs, over every reference
 passport the project publishes and a deliberately broken variant of each.
 
-Synced from openepcis-dpp-ready 0.13.0 (`8f2a6c63`) with
+Synced from openepcis-dpp-ready 0.13.1 (`7a3f28d8`) with
 `pnpm run publish:validator-resources`. An edit made directly here is
 overwritten by the next sync — please raise issues and pull requests against
 [openepcis-dpp-ready](https://github.com/openepcis/openepcis-dpp-ready) instead.
