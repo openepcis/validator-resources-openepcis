@@ -29,9 +29,6 @@ invalidates every statement already made, so ids are stable.
 | `eu.battery.model` | EU Battery — model granularity (EN 18223) |
 | `eu.battery.batch` | EU Battery — batch granularity (EN 18223) |
 | `eu.battery.item` | EU Battery — item granularity (EN 18223) |
-| `eu.battery.ev` | EU Battery — electric vehicle (EC guidance coverage) |
-| `eu.battery.lmt` | EU Battery — light means of transport (EC guidance coverage) |
-| `eu.battery.industrial` | EU Battery — industrial (EC guidance coverage) |
 | `eu.cpr` | EU Construction Products — Construction Products Regulation 2024/3110 |
 | `eu.detergent` | EU Detergent — Detergents Regulation 2026/405 |
 | `eu.electronics` | EU Electronics — ESPR Electronics Acts |
@@ -136,7 +133,7 @@ where the shapes are derived from the module ontologies and verified against the
 same `isaitb/shacl-validator` image the Test Bed runs, over every reference
 passport the project publishes and a deliberately broken variant of each.
 
-Synced from openepcis-dpp-ready 0.14.0 (`d765844f`) with
+Synced from openepcis-dpp-ready 0.14.2 (`cf1cf41d`) with
 `pnpm run publish:validator-resources`. An edit made directly here is
 overwritten by the next sync — please raise issues and pull requests against
 [openepcis-dpp-ready](https://github.com/openepcis/openepcis-dpp-ready) instead.
